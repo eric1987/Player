@@ -7,10 +7,10 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(HMVP_LIB)\FFmpeg4.0\include;$(HMVP_LIB)\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(FFmpeg4_0)/include;$(SDL2)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(HMVP_LIB)\FFmpeg4.0\lib;$(HMVP_LIB)\SDL2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(FFmpeg4_0)/lib;$(SDL2)/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>avcodec.lib;avformat.lib;avutil.lib;avdevice.lib;avfilter.lib;postproc.lib;swresample.lib;swscale.lib;SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
